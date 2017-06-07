@@ -1,5 +1,5 @@
 Twitch Bot
-> A bearbones example on how to add a [Twitch](https://twitch.tv) bot to your Twitch chat using [tmi.js](https://tmijs.org/) and **Glitch**.
+> A bare bones example on how to add a [Twitch](https://twitch.tv) bot to your Twitch chat using [tmi.js](https://tmijs.org/) and **Glitch**.
 
 What you need
 ---------------- - -  -
@@ -12,3 +12,4 @@ What you need
  - After a moment or two you should see your bot join [twitch.tv/shinbot/chat](twitch.tv/shinbot/chat)
  - Edit index.js line 26 `channels: ["shinbot"]` to point to your channel, this is the channel you want to bot to join.
  - I have included two example commands both currently pointing to the `shinbot` channel you should update those too. To add more simply extend out the switch statement. For further documentation see [tmi.js](https://docs.tmijs.org/).
+ - Follow me on [Twitch](https://twitch.tv/shindakun).

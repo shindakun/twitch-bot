@@ -2,9 +2,10 @@ const express = require('express');
 const tmi = require("tmi.js");
 const app = express();
 
-// Glitch expects a web server basically so we're starting express to take care of that.
+// Glitch expects a web server so we're starting express to take care of that.
+// The page shows the same information as the readme and includes the remix button.
 app.get("/", function (request, response) {
-  response.send('Hello.');
+  response.sendFile(__dirname + '/views/index.html');
 });
 
 let listener = app.listen(process.env.PORT, function () {
